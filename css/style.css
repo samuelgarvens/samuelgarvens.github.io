@@ -30,3 +30,18 @@ nav{
     z-index: 1;
     background-color: #FFFFFF;
 }
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #383535;
+    letter-spacing: 1px;
+}
