@@ -22,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 10px 30px rgba(0,0,0,0,.02);
+    box-shadow: 5px 10px 30px rgba(0,0,0,.02);
     position: fixed;
     left: 0;
     top: 0;
@@ -47,17 +47,19 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #eca9a9;
-    box-shadow: 5px 10px 30px;
-    transition: all ease 0.2s;
+    transition: all ease .2s;
 }
 .main-text{
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    align align-items: center;
-    position: absolute; 
-    left: 50%;
-    top: 50%;
-
-
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+}
+.main-text h1{
+    color: #eca9a9;
+}
+.main-text h1:hover{
+    color: #ff0000;
 }
