@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding:0px;
-    font-family: calibri;
+    font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
 }
 *{
@@ -22,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 10px rgba(0,0,0,0,.02);
+    box-shadow: 5px 10px 30px rgba(0,0,0,0,.02);
     position: fixed;
     left: 0;
     top: 0;
@@ -44,4 +44,8 @@ nav ul li a{
     font-weight: 500;
     color: #383535;
     letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: #eca9a9;
+    box-shadow: 5px 10px 30px rhba();
 }
