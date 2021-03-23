@@ -50,16 +50,20 @@ nav ul li a:hover{
     transition: all ease .2s;
 }
 .main-text{
+    display: inline;
     left: 0;
     line-height: 30px;
     position: absolute;
     text-align: center;
     top: 10%;
-    width: 100%;
+    width: 100%; 
+    margin-left: 30px;
+    
 }
 .main-text h1{
     color: #eca9a9;
+    
 }
-.main-text h1:hover{
+.main-text h1 span:hover{
     color: #ff0000;
 }
