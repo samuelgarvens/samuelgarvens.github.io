@@ -47,5 +47,9 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #eca9a9;
-    box-shadow: 5px 10px 30px rhba();
+    box-shadow: 5px 10px 30px;
+    transition: all ease 0.2s;
+}
+.main-text{
+    width: 500px;
 }
