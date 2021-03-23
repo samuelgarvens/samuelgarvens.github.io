@@ -52,4 +52,12 @@ nav ul li a:hover{
 }
 .main-text{
     width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align align-items: center;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+
+
 }
