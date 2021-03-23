@@ -30,6 +30,10 @@ nav{
     z-index: 1;
     background-color: #FFFFFF;
 }
+.logo img{
+    height: 50px;
+    margin-left: -70px;
+}
 nav ul{
     display: flex;
 }
@@ -46,7 +50,7 @@ nav ul li a{
     letter-spacing: 1px;
 }
 nav ul li a:hover{
-    color: #eca9a9;
+    color: #f1c42e;
     transition: all ease .2s;
 }
 .main-text{
@@ -61,7 +65,7 @@ nav ul li a:hover{
     
 }
 .main-text h1{
-    color: #eca9a9;
+    color: #eebe1f;
     
 }
 .main-text h1 span:hover{
